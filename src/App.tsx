@@ -1,12 +1,13 @@
 
 import './App.css'
+import Todo from './Todo'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-2xl bg-red-700'>Hello</h1>
-    </>
+    <div className='flex justify-center items-center h-[100vh] font-mono'>
+      <Todo></Todo>
+    </div>
   )
 }
 
